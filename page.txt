@@ -1,0 +1,15 @@
+<form action="Pharmacy.php" id="orderform" method="post" >
+			<h1>Order Form</h1>
+			<label for="name">Name:</label>
+			<input type="text" name="name" value="<?php echo $_SESSION['name']; ?>" />
+			<label for="email">Email:</label>
+			<input type="email" name="email" value="<?php echo $_SESSION['email']; ?>" disabled ; />
+			<label for="tel">Telephone:</label>
+			<input type="text" name="tel" required ; />
+			<label for="total">Amount of bill:</label>
+			<input type="text" name="total" value="<?php echo $_SESSION['total']; ?>" disabled; />
+            <div>
+			<label for="notes">Additional Notes (if any):</label>
+			<textarea name="notes"></textarea>
+			<input type="submit" value="Place Order" name="Order" /></div>
+		</form>

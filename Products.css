@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+
+	margin: 0;
+	background-image: url(../Pharmacy/20386082.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#topbar,input {
+	background-color: gold;
+	color: black;
+	position: relative;
+	height: 6vh;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+	font-size: 18px;
+	font-family: New Roman;
+
+}
+
+#topnav {
+	background-color: green(150, 180, 240);
+	overflow: hidden;
+
+}
+
+#topnav {
+	float: left;
+	color: gray;
+	text-align: center;
+	padding: 20px 60px;
+	text-decoration: normal;
+	font-size: 18px;
+
+}
+
+#topnav a#active {
+	background-color: black;
+	color: gray;
+}
+
+#topnav #a:hover {
+	background-color: black;
+	color: gray;
+}
+
+.col-md-4 {
+	max-width: 400px;
+	max-height: 400px;
+	margin: auto;
+	font-family: New Roman;
+
+}
+
+.col-md-4:hover {
+	max-width: auto;
+	max-height: auto;
+	margin: auto;
+	font-family: New Roman;
+
+}
+
+.btn {
+	color: white;
+	background-color: black;
+}
+
+.card_img {
+	height: 200px;
+	overflow: hidden;
+}
+
+.img-responsive {
+	object-fit: cover;
+	overflow: hidden;
+}
+
+.card_details {
+	width: 100%;
+	height: auto;
+}
+
+.table-bordered {
+	background-color: rgba(76, 78, 41, 0.76);
+	color: #dbdbdb;
+
+}
+
+
+/*#sideMenu{
+	
+	background-color:gray;
+	color:black;
+	position:relative;
+	height:80vh;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-size:18px;
+	font-family:New Roman;
+	background-repeat:repeat-x;
+	
+}*/
+
+#footer {
+	background-color: black;
+	color: gray;
+	position: relative;
+	height: 15vh;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 18px;
+	font-family: New Roman;
+}
+
+ul {
+	list-style-type: none;
+
+}
+
+#col1 {
+	margin-top: 25px;
+	float: left;
+	width: 25%;
+}
+
+#col2 {
+	margin-top: 25px;
+	float: left;
+	width: 25%;
+
+}
+
+#col3 {
+	margin-top: 25px;
+	float: left;
+	width: 25%;
+}
+
+#col4 {
+	margin-top: 25px;
+	float: left;
+	width: 25%;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+
+}
